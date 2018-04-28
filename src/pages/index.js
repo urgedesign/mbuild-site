@@ -1,9 +1,10 @@
 import React from 'react'
+import logo from '../img/logo.svg' // Tell Webpack this JS file uses this image
 
 const IndexPage = () => (
   <div>
     <h1 className="title">Christchurch Builders</h1>
-    <img src="./static/logo.svg" />
+    <img src={logo} alt="Christchurch Builders Logo" />
     <h2>Muir Builders</h2>
     <p>Neil Muir</p>
     <p>
