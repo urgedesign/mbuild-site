@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:400,800');
+
 html {
   height: 100%;
   background: #fdfdfd;
@@ -5,16 +7,18 @@ html {
 body {
   color: #444444;
   min-height: 100%;
+  font-family: 'Muli', Helvetica, Arial, sans-serif;
 }
 
-#___gatsby {
-  min-height: 100%;
+img {
+  max-width: 100%;
+  display: block;
 }
 
 .wrapper {
   display: flex;
   align-items: center;
-  min-height: 100%;
+  min-height: 100vh;
   justify-content: center;
 }
 
@@ -22,4 +26,20 @@ body {
 }
 
 .logo {
+}
+
+a {
+  color: #555555;
+  text-decoration: none;
+  border-bottom: 2px solid rgba(223, 36, 47, 0.7);
+  transition: border-bottom 0.2s ease, color 0.2s ease;
+}
+
+a:hover {
+  color: #444444;
+  border-bottom: 2px solid rgba(223, 36, 47, 1);
+}
+
+.title {
+  text-align: center;
 }
