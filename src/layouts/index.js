@@ -5,6 +5,7 @@ import Helmet from 'react-helmet'
 import Header from '../components/header'
 import '../../node_modules/normalize-css/normalize.css'
 import './index.css'
+import '../_redirects'
 
 const Layout = ({ children, data }) => (
   <div className="wrapper">
