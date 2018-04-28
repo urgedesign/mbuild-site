@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'M.Build – Christchurch Builders',
   },
   plugins: ['gatsby-plugin-react-helmet'],
 }
