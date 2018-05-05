@@ -20,12 +20,11 @@ img {
   align-items: center;
   min-height: 100vh;
   justify-content: center;
+  padding: 40px;
 }
 
-.content {
-}
-
-.logo {
+.logo-wrapper {
+  margin: 0 auto;
   max-width: 380px;
 }
 

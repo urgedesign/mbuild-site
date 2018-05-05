@@ -4,7 +4,10 @@ import logo from '../img/logo.png'
 const IndexPage = () => (
   <div>
     <h1 className="title">Christchurch Builders</h1>
-    <img src={logo} alt="Christchurch Builders Logo" className="logo" />
+    <figure className="logo-wrapper">
+      <img src={logo} alt="Christchurch Builders Logo" className="logo" />
+    </figure>
+
     <h2>Muir Builders</h2>
     <p>Neil Muir</p>
     <p>
