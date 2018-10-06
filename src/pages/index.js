@@ -2,16 +2,6 @@ import React from 'react'
 import logo from '../img/logo.png'
 
 class IndexPage extends React.Component {
-  componentWillMount() {
-    const script = document.createElement('script')
-
-    script.src =
-      'https://cdn.curator.io/published/5b300f7b-494b-4c8d-af08-8eed7064c3f6.js'
-    script.async = true
-
-    document.body.appendChild(script)
-  }
-
   render() {
     return (
       <div>

@@ -10,6 +10,12 @@ import '../_redirects'
 const Layout = ({ children, data }) => (
   <div className="wrapper">
     <Helmet
+      script={[
+        {
+          src:
+            'https://cdn.curator.io/published/5b300f7b-494b-4c8d-af08-8eed7064c3f6.js',
+        },
+      ]}
       title={data.site.siteMetadata.title}
       meta={[
         { name: 'description', content: 'Sample' },
